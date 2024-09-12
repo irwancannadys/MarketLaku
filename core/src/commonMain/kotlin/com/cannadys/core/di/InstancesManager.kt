@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.cannadys.core.WeakReferenceCommon
-import org.example.core.WeakReferenceCommon
 import org.example.core.result.SharedResultManager
 
 /**

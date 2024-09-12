@@ -1,5 +1,6 @@
-package org.example.core.network
+package com.cannadys.core.network
 
+import com.cannadys.core.local.ValuesStoreManager
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.logging.LogLevel
@@ -14,7 +15,6 @@ import io.ktor.http.appendPathSegments
 import io.ktor.http.contentType
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
-import org.example.core.local.ValuesStoreManager
 
 
 class NetworkClient(

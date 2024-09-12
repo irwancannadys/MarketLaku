@@ -1,3 +1,3 @@
-package org.example.core.utils
+package com.cannadys.core.utils
 
 expect val Double.currency: String
